@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  ipsi:
+    image: seungwook0417/ipsi:latest
+#    build: .
+    ports:
+     - "7000:7000"
+    env_file:
+      - .env
